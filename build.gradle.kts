@@ -1,3 +1,8 @@
+@file:Suppress(
+    "SpellCheckingInspection", "SpellCheckingInspection",
+    "SpellCheckingInspection", "SpellCheckingInspection", "SpellCheckingInspection", "SpellCheckingInspection"
+)
+
 plugins {
     kotlin("jvm") version "1.8.0"
     id("org.jetbrains.kotlinx.dataframe") version "0.13.1"

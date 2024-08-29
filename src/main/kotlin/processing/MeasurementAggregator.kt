@@ -1,6 +1,6 @@
 package dev.magthe.processing
 
-import dev.magthe.DataObjects.Measurement
+import dto.Measurement
 import java.time.LocalDate
 
 class MeasurementAggregator(private val measurementIterator: MeasurementIterator) {

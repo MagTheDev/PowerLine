@@ -1,7 +1,7 @@
 package dev.magthe.processing
 
-import dev.magthe.DataObjects.Measurement
-import dev.magthe.DataObjects.MeasurementType
+import dto.Measurement
+import dto.MeasurementType
 import dev.magthe.iterutils.PeekingIterator
 import dev.magthe.iterutils.peeking
 import org.jetbrains.kotlinx.dataframe.DataFrame
@@ -14,7 +14,7 @@ import java.time.LocalDate
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter
 
-class ExcelMeasurementIterator(private val file: String) : MeasurementIterator {
+class ExcelMeasurementIterator(file: String) : MeasurementIterator {
     private val measurementsIter: PeekingIterator<DataRow<Any?>>
     private val measurementType: MeasurementType
     private val dateFormatter: DateTimeFormatter = DateTimeFormatter.ofPattern("dd.MM.yyyy")

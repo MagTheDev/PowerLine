@@ -1,5 +1,5 @@
 package dev.magthe.processing
 
-import dev.magthe.DataObjects.Measurement
+import dto.Measurement
 
 interface MeasurementIterator : Iterator<Measurement>

@@ -1,4 +1,4 @@
-package dev.magthe.DataObjects
+package dto
 
 import java.time.LocalDate
 import java.time.LocalTime

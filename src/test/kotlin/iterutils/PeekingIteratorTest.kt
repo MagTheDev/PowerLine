@@ -10,7 +10,7 @@ class PeekingIteratorTest {
     @Test
     fun `Can correctly work as an iterator`() {
         val iter = listOf(0,1,2,3,4,5,6,7,8,9).iterator().peeking()
-        var expected = 0;
+        var expected = 0
         for (item in iter) {
             assertEquals(expected, item)
             expected++

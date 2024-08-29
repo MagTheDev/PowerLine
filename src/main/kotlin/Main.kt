@@ -1,6 +1,6 @@
 package dev.magthe
 
-import dev.magthe.DataObjects.MeasurementType
+import dto.MeasurementType
 import dev.magthe.processing.MeasurementFactory
 
 
